@@ -3,7 +3,46 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: "Montserrat", sans-serif;
+  background-attachment: fixed;
+}
+.bg-photo{
+  background-image: url(./src/assets/84346D04-9ECD-4FB4-A1D5-D0618246161A_1_105_c.jpeg);
+  
+  background-size: cover;
+}
+h1{
+  font-size: 44px;
+}
 .navbar{
   display: flex;
   justify-content: space-between;
+  padding: 40px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar a{
+  margin: 20px;
+}
+.hero{
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  ;
+
+}
+img{
+  border-radius: 50%;
+}
+h2{
+  margin-bottom: 20px;
+}
+.show-table{
+  border: 2px solid black;
+  width: 50%;
+  height: 500px;
+  margin: 0px auto;
 }
