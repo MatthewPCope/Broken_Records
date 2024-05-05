@@ -6,12 +6,11 @@
 body{
   font-family: "Montserrat", sans-serif;
   background-attachment: fixed;
-}
-.bg-photo{
-  background-image: url(./src/assets/84346D04-9ECD-4FB4-A1D5-D0618246161A_1_105_c.jpeg);
+  background-color: black;
+  color: white;
   
-  background-size: cover;
 }
+
 h1{
   font-size: 44px;
 }
@@ -20,15 +19,16 @@ h1{
   justify-content: space-between;
   padding: 40px;
   align-items: center;
-  position: fixed;
-  top: 0;
-  width: 100%;
+  
+}
+.links{
+  display: flex;
 }
 .navbar a{
   margin: 20px;
 }
 .hero{
-  margin-top: 50px;
+  
   display: flex;
   justify-content: center;
   ;
@@ -37,13 +37,21 @@ h1{
 img{
   border-radius: 50%;
 }
-h2{
-  margin-bottom: 20px;
+a{
+  color: white;
 }
-.show-table{
-  border: 2px solid black;
-  width: 50%;
-  height: 500px;
-  margin: 0px auto;
-  margin-top: 150px;
+.shows{
+  margin-top: 50px;
+  text-align: center;
+  
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  
+  color: white;
+  margin-left: 50px;
+  margin-bottom: 10px;
 }

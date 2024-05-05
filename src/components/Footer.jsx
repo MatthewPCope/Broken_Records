@@ -1,0 +1,11 @@
+import React from 'react'
+
+function Footer() {
+    return (
+        <div className='footer'>
+            <p>&copy; 2024 The Broken Records</p>
+        </div>
+    )
+}
+
+export default Footer

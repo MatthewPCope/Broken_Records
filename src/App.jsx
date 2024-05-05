@@ -1,16 +1,19 @@
 import './index.css'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
+import Main from './components/Main'
 import Shows from './components/Shows'
+import About from './components/About'
+import { Routes, Route } from 'react-router-dom'
 
 function App() {
 
 
   return (
     <>
-      <Navbar />
-      <Shows />
-      <Hero />
+    <Routes>
+        <Route index element={<Main />}/> 
+          <Route path="/upcomingshows" element={<Shows />}/>
+          <Route path="/about" element={<About />}/>
+      </Routes>
     </>
   )
 }

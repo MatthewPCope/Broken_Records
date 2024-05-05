@@ -1,18 +1,16 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Hero from './Hero'
 import Footer from './Footer'
 
-function Shows() {
+function Main() {
     return (
         <div>
             <Navbar />
-            <div className='shows'>
-                <p>Saturday May 25th
-                The Wine House</p>
-            </div>
+            <Hero />
             <Footer />
         </div>
     )
 }
 
-export default Shows
+export default Main

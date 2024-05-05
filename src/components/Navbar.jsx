@@ -6,9 +6,16 @@ const Navbar = () => {
         <>
             <div className='navbar'>
                 <h1>The Broken Records</h1>
-                <div>
-                    <a href="https://reverb.com/">Upcoming Shows</a>
-                    <a href="https://sweetwater.com">About</a>
+                <div className='links'>
+                    <Link to={"/upcomingshows"}>
+                        <p>Upcoming Shows</p>
+                    </Link>
+                    <Link to={"/about"}>
+                        <p>About</p>
+                    </Link>
+                    <Link to={"/"}>
+                        <p>Home</p>
+                    </Link>
                 </div>
             </div>
         </>
