@@ -1,20 +1,23 @@
+import Shows from "./Shows"
 
 
 function Hero() {
     return (
     <>
         <div className="header">
-            <div className="container">
+            {/* <div className="container">
                 <div class="navbar">
-                    <div>LOGO</div>
+                    <div >
+                        <img className="logo-image" src="./assets/The_Broken_logo.jpg" alt="" />
+                    </div>
                     <div>NAVIGATION</div>
                 </div>
-            </div>
-            <div class="header-container">
-                <div class="header-container-inner">
+            </div> */}
+            <div className="header-container">
+                <div className="header-container-inner">
                     <h1>The Broken Records</h1>
                     <p>A Carmel Valley-based rock group comprised of three beleaguered dads playing grunge and alternative classics from the 90’s and beyond.</p>
-                    <a href="#" class="btn">Upcoming Shows</a>
+                    <a href="/upcomingshows" class="btn">Upcoming Shows</a>
                 </div>
             </div>
             
