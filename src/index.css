@@ -4,111 +4,58 @@
   box-sizing: border-box;
 }
 body{
-  font-family: "Manrope", sans-serif;
-  
+  font-family: "Montserrat", sans-serif;
+  background-attachment: fixed;
+  /* background-color: black; */
   color: white;
-  
-}
-.container{
-  margin: 0 auto;
-  width: 1200px;
+  background-image: radial-gradient(black, #221c1b)
 }
 
+h1{
+  font-size: 44px;
+}
 .navbar{
-  font-size: 20px;
-  font-weight: 700;
   display: flex;
   justify-content: space-between;
-  padding-top: 32px;
-}
-.logo-image{
-  width: 60px;
-  height: 60px;
-}
-/* .header{
-  height: 100vh;
-  position: relative;
-  background-image:    url(./assets/pexels-mika-lika-50962711-7654250.jpg);
-  background-size: cover;
-  color: #151515;
-} */
-.header{
-  height: 175vh;
-  position: relative;
-  background-image:    url(./assets/The_Broken_logo.jpg);
-  background-size: cover;
+  padding: 40px;
+  align-items: center;
   
 }
-.header-container{
-  width: 1200px;
-  position: absolute;
-  left: 50%;
-  top: 15%;
-  transform: translate(-50%, -50%);
-  
-  
-}
-.header-container-inner{
-  width: 50%;
-}
-h2{
-  font-size: 44px;
-  margin-top: 24px;
-  margin-bottom: 24px;
-}
+
 .links{
   display: flex;
 }
-/* .navbar a{
+.navbar a{
   margin: 20px;
-} */
-/* .hero{
+}
+.hero{
   
   display: flex;
   justify-content: center;
   ;
 
-} */
+}
+img{
+  border-radius: 50%;
+}
 /* img{
   border-radius: 50%;
 } */
 a{
   color: white;
 }
-/* .shows{
+.shows{
   margin-top: 50px;
   text-align: center;
   
-} */
+}
 .footer {
-  /* position: fixed;
+  position: fixed;
   left: 0;
-  bottom: 0; */
+  bottom: 0;
   width: 100%;
   
   color: white;
   margin-left: 50px;
   margin-bottom: 10px;
-}
-h1{
-  font-size: 52px;
-  line-height: 1.05;
-  
-}
-p{
-  font-size: 20px;
-  line-height: 1.6;
-  margin-bottom: 36px;
-  margin-top: 20px;
-}
-.btn:link,
-.btn:visited{
-  font-size: 20px;
-  font-weight: 600;
-  background-color: #4b4b4b;
-  color: #fff;
-  text-decoration: none;
-  display: inline-block;
-  padding: 16px 32px;
-  border-radius: 9px;
 }

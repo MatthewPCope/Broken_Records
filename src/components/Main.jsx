@@ -6,9 +6,9 @@ import Footer from './Footer'
 function Main() {
     return (
         <div>
-            
+            <Navbar />
             <Hero />
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }
